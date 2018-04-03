@@ -12,8 +12,8 @@ do
             git remote -v
         fi
         cd ..
-	else
-		echo "\t\t目录\"${subdir}\"不是有效的git项目"
+    else
+        echo "\t\t目录\"${subdir}\"不是有效的git项目"
     fi
     echo '\n'
 done
